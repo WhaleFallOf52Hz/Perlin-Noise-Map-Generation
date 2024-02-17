@@ -25,4 +25,4 @@ This program is based on the personal source code, with reference to [https://gi
 * `Stacked_noise( )` utilizes `noise()` to output stacked Berlin noise with multiple frequency
 * `falloff( )` transform the input noise into a island-shape one
 ## color.py
-Color the noise(or so called _height map_). Make it into a real height map with shadow. It's based on Bresenham's line algorithm.
+Color the noise(or so called _height map_). Make it into a real height map with shadow. It's based on Bresenham's line algorithm. **Parallel computing has not yet been implemented**
