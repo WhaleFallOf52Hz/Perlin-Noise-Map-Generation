@@ -12,7 +12,7 @@ _个人小练习——基于柏林噪声的地形生成_
 ## 示例
 ![image1](/sample_images/256x256image_Theta180_Phi60.bmp "256x256,Theta（方位角）=180,Phi（高度角）=60")
 
-![image2](/sample_images/1024x1024image_Theta90_Phi60.bmp "1024x1024,Theta（方位角）=90,Phi（高度角）=60")
+
 
 ---
 
