@@ -198,6 +198,10 @@ def block_judge(canva,Theta_input,Phi_input,long_shade=1):
     return isblocked
 
 def enColor(canva,shaded=False,Theta_input=180,Phi_input=60,long_shade=1):
+    if Theta_input>=360 or Theta_input<0:
+        raise Exception ("Theta out of range")
+    if Phi_input>90 or Phi_input<0::
+        raise Exception ("Phi out of range")
     if shaded==True:
         isblocked=block_judge(canva,Theta_input,Phi_input,long_shade=long_shade)
     X=canva.shape[0]
