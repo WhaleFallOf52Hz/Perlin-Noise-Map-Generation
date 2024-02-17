@@ -9,9 +9,11 @@ _个人小练习——基于柏林噪声的地形生成_
 * `falloff( )` 则将输入的柏林噪声(array格式)根据特定函数转化为岛屿形
 ## color.py
 此程序通过Bresenham直线算法，计算光线与阴影，达到为图片上色的目的，**暂未实现并行化**
-##示例
+## 示例
 ![image1](/sample_images/256x256image_Theta180_Phi60.bmp "256x256,Theta（方位角）=180,Phi（高度角）=60")
+
 ![image2](/sample_images/1024x1024image_Theta90_Phi60.bmp "1024x1024,Theta（方位角）=90,Phi（高度角）=60")
+
 ---
 
 _Personal Exercise - Terrain Generation Based on Berlin Noise_
