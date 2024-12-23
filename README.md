@@ -18,9 +18,9 @@ _个人小练习——基于柏林噪声的地形生成_
 
 _Personal Exercise - Terrain Generation Based on Berlin Noise_
 ## Overview
-This is an experimental program based on Berlin noise for generating altitude maps on a 2d plane, inspired by [https://www.youtube.com/watch?v=bMTeCqNkId8]() .It includes two parts: terrain generation (optional islanding) and terrain coloring (optional shadows by directional light).
+This is an experimental program based on Berlin noise for generating altitude maps on a 2d plane, inspired by [https://www.youtube.com/watch?v=bMTeCqNkId8](https://www.youtube.com/watch?v=bMTeCqNkId8) .It includes two parts: terrain generation (optional islanding) and terrain coloring (optional shadows by directional light).
 ## CUDA_perlin_noise.py
-This program is based on the personal source code, with reference to [https://github.com/pvigier/perlin-numpy/blob/master/perlin_numpy/perlin2d.py]() . It now can accelerate computing with pytorch matrix (CUDA).
+This program is based on the personal source code, with reference to [https://github.com/pvigier/perlin-numpy/blob/master/perlin_numpy/perlin2d.py](https://github.com/pvigier/perlin-numpy/blob/master/perlin_numpy/perlin2d.py) . It now can accelerate computing with pytorch matrix (CUDA).
 * `noise()` is a basic Berlin noise program that generates single frequency Berlin noise following the required size, frequency, continuity, and random seed of the input
 * `Stacked_noise( )` utilizes `noise()` to output stacked Berlin noise with multiple frequency
 * `falloff( )` transform the input noise into a island-shape one
